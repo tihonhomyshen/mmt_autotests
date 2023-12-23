@@ -25,7 +25,7 @@ public class AuthSteps {
         return given()
                 .when()
                 .body("string")
-                .delete("auth/logout")
+                .post("auth/logout")
                 .then()
                 .assertThat().log().all()
                 .statusCode(200)

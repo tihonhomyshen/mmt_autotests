@@ -8,9 +8,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ApproveResponse {
-    public int responseId;
-    public int requestId;
-    public int keeperId;
+    public Long responseId;
+    public Long requestId;
+    public Long keeperId;
     public String responseDate;
-    public int statusId;
+    public Long statusId;
 }
